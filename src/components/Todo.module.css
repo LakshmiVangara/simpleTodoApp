@@ -1,0 +1,29 @@
+/* src/components/Todo.module.css */
+.todoContainer {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.title {
+  color: #333;
+  text-align: center;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  background: #f9f9f9;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.item:nth-child(even) {
+  background: #e9e9e9;
+}
